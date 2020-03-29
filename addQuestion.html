@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="container">
+	<form id="add-question">
+		<h2>Add a Question:</h2>
+		<div class="formBox">
+			<input type="text" name="question" placeholder="Full Question">
+		</div>
+		<div class="formBox">
+			<input type="text" name="choiceA" placeholder="Choice A">
+		</div>
+		<div class="formBox">
+			<input type="text" name="choiceB" placeholder="Choice B">
+		</div>
+		<div class="formBox">
+			<input type="text" name="choiceC" placeholder="Choice C">
+		</div>
+		<div class="formBox">
+			<input type="text" name="choiceD" placeholder="Choice D">
+		</div>
+		<div class="pointBox">
+			Points:
+			<input name="point" id="point">
+		</div>
+		<div style="text-align: left">
+			Correct Answer: <select form="add-question" name="correct" placeholder="Correct Answer">
+				<option value="A">Choice A</option>
+				<option value="B">Choice B</option>
+				<option value="C">Choice C</option>
+				<option value="D">Choice D</option>
+			</select>
+		</div>
+		<input type="submit" value="Submit Question" id="submitQuestion">
+	</form>
+	</div>
+	<hr>
+	<footer style="text-align: center">
+		<div class="myLinks">
+			<p><a href="index.html">Take the Quiz!</a></p>
+		</div>
+
+	</footer>
+	<script type="text/javascript" src="addQuestions.js"></script>
+</body>
+</html>
